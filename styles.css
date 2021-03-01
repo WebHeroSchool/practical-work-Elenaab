@@ -22,6 +22,7 @@ body{
   padding: 40px 0;
 }
 .menu__item{
+  border: dashed 1px red
   padding:0 13px;
 }
 .menu__item:last-child{
