@@ -15,9 +15,32 @@ body{
   display: inline-block;
 }
 .logo{
+  position: relative;
   margin-right: 52%;
   padding:40px 0;
+    padding-left: 44px;
+  font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+  border: dashed 1px red;
 }
+.logo__circle {
+ width: 28px;
+ height: 28px;
+ position: absolute;
+ left: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ border-radius: 50%;
+ opacity: .7;
+}
+.logo__circle_color_dark-blue{
+background: #0056EC;
+}
+.logo__circle_color_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+
 .menu{
   padding: 40px 0;
 }
@@ -29,6 +52,7 @@ body{
   padding-right: 0;
 }
 .main-section{
+margin-top:  14%;
 margin-right: 13%;
 }
 .image-content, .main-content{
