@@ -81,12 +81,16 @@ margin-right: 13%;
   border: dashed 1px red;
 }
 .main-content{
+  padding-top: : 206px;
+  width: 37%
   border: dashed 1px red;
 }
 .main-content__title{
+margin-bottom: 40px;
 border: dashed 1px red;
 }
 .main-content__description{
+  margin-bottom: 41px;
 border: dashed 1px red;
 }
 .main-content__button{
