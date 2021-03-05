@@ -15,20 +15,63 @@ body{
   display: inline-block;
 }
 .logo{
-  margin-right: 52%;
+  position: relative;
+  margin-right: 32%;
   padding:40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
 }
+.logo__circle {
+ width: 28px;
+ height: 28px;
+ position: absolute;
+ left: 0;
+ top: 50%;
+ transform: translateY(-50%);
+ border-radius: 50%;
+ opacity: .7;
+}
+.logo__circle_color_dark-blue{
+background: #0056EC;
+}
+.logo__circle_color_blue{
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
+}
+
 .menu{
   padding: 40px 0;
 }
 .menu__item{
-  border: dashed 1px red
-  padding:0 13px;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  color:  #000000;
+  text-decoration: none;
 }
 .menu__item:last-child{
-  padding-right: 0;
+  margin-right: : 0;
+}
+.menu__item:after {
+ position: absolute;
+ left: 0;
+ display: block;
+ content: '';
+ width: 100%;
+ height: 3px;
+ background: #0056EC;
+ opacity: 0;
+ transition: opacity .5s;
+}
+.menu__item:hover {
+ opacity: 0.5;
+}
+.menu__item:hover:after, .menu__item_active:after {
+ opacity: 1;
 }
 .main-section{
+margin-top:  14%;
 margin-right: 13%;
 }
 .image-content, .main-content{
@@ -38,12 +81,16 @@ margin-right: 13%;
   border: dashed 1px red;
 }
 .main-content{
+  padding-top: : 206px;
+  width: 37%
   border: dashed 1px red;
 }
 .main-content__title{
+margin-bottom: 40px;
 border: dashed 1px red;
 }
 .main-content__description{
+  margin-bottom: 41px;
 border: dashed 1px red;
 }
 .main-content__button{
