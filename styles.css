@@ -18,8 +18,8 @@ body{
   position: relative;
   margin-right: 32%;
   padding:40px 0;
-  padding-left: 44px;
-  font: bold 24px/31px 'pt_serifbold', arial, helvetica, sans-serif;
+  padding-left:44px;
+  font: bold 24px/31px 'pt_serif'
 }
 .logo__circle {
  width: 28px;
