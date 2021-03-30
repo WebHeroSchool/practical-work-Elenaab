@@ -19,7 +19,7 @@ body{
   margin-right: 32%;
   padding:40px 0;
   padding-left:44px;
-  font: bold 24px/31px 'pt_serif'
+  font: bold 24px/31px 'pt_serif',arial,helvetica,sans-serif;
 }
 .logo__circle {
  width: 28px;
