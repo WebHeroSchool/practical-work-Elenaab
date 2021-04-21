@@ -52,7 +52,7 @@ background: #0056EC;
 .menu__item{
   position: relative;
   margin-right: 20px;
-  font: 500 18px/21px 'Roboto' , arial, helvetica, sans-serif;
+  font: normal 500 18px/21px 'robotoblack', arial, helvetica, sans-serif;
   color:  #000000;
   text-decoration: none;
 
