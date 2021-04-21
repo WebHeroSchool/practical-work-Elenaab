@@ -1,8 +1,10 @@
+
 @font-face{
-    font-family: 'pt_serif';
+    font-family:'pt_serif';
     font-weight: normal;
     font-style: normal;
     src:url('fonts/ptserif-webfont.woff') format('woff');
+
 }
 
 @font-face{
@@ -10,6 +12,7 @@
     src:url('fonts/ptserif-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face{
@@ -17,6 +20,7 @@
     src:url('fontss/ptserif-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face{
@@ -24,11 +28,13 @@
     src: url('fonts/ptserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 @font-face {
-    font-family: 'robotoblack';
+    font-family:'robotoblack';
     src: url('fonts/roboto-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
