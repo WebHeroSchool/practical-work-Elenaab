@@ -1,20 +1,20 @@
 
   @font-face {
-    font-family: ' pt_serif ';
+    font-family: 'pt_serif';
     font-weight: normal;
     font-style: normal;
     src: url(' fonts/ptserif-webfont.woff ') format('woff');
 }
 
   @font-face {
-    font-family: ' pt_serifbold_italic ';
+    font-family: 'pt_serifbold_italic';
     src: url(' fonts/ptserif-bolditalic-webfont.woff ') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
   @font-face {
-    font-family: ' pt_serifitalic ';
+    font-family: 'pt_serifitalic';
     src: url(' fontss/ptserif-italic-webfont.woff ') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -22,7 +22,7 @@
 }
 
   @font-face {
-    font-family: ' pt_serifregular ';
+    font-family: 'pt_serifregular';
     src: url(' fonts/ptserif-regular-webfont.woff ') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -30,7 +30,7 @@
 }
 
   @font-face {
-    font-family: ' robotoblack ';
+    font-family: 'robotoblack';
     src: url(' fonts/roboto-black-webfont.woff ') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: ' robotolight ';
+    font-family: 'robotolight';
     src: url(' fonts/roboto-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -46,7 +46,7 @@
   }
 
   @font-face {
-      font-family: ' robotomedium ';
+      font-family: 'robotomedium';
       src: url(' fonts/roboto-medium-webfont.woff') format('woff');
       font-weight: normal;
       font-style: normal;
