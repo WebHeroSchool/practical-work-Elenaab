@@ -36,3 +36,19 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: ' robotolight ';
+    src: url(' fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  @font-face {
+      font-family: ' robotomedium ';
+      src: url(' fonts/roboto-medium-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }

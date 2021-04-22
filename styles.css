@@ -59,7 +59,7 @@ background: #0056EC;
 .menu__item {
   position: relative;
   margin-right: 20px;
-  font: normal 500 18px/21px ' robotoblack ', arial, helvetica, sans-serif;
+  font: normal 500 18px/21px ' robotomedium ', arial, helvetica, sans-serif;
   color:  #000000;
   text-decoration: none;
 
@@ -111,14 +111,14 @@ background: #0056EC;
 
 .main__description {
  margin: 0 0 41px 0;
- font: 18px/21px ' robotoblack ', arial, helvetica, sans-serif;
+ font: 18px/21px ' robotomedium ', arial, helvetica, sans-serif;
  padding-right: 63%;
 
 }
 
 .main__button {
   display: inline-block;
-   font: 14px/16px ' robotoblack ', arial, helvetica, sans-serif;
+   font: 14px/16px ' robotomedium ', arial, helvetica, sans-serif;
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
@@ -130,7 +130,7 @@ background: #0056EC;
 
 .main__button:hover{
   opacity: .5;
-  
+
 }
 
 .main__title-text_highlight {
