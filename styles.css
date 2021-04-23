@@ -20,8 +20,8 @@ body {
 .logo {
   position: relative;
   margin-right: 32%;
-  padding:40px 0;
-  padding-left:44px;
+  padding: 40px 0;
+  padding-left: 44px;
   font: bold 24px/31px  'pt_serif',arial, helvetica, sans-serif;
 
 }
@@ -66,7 +66,7 @@ background: #0056EC;
 }
 
 .menu__item:last-child {
-  margin-right: : 0;
+  margin-right: 0;
 
 }
 
@@ -98,7 +98,7 @@ background: #0056EC;
   margin: auto;
   padding: 0 0 120px 0;
   width: 82%;
-  background: top right no-repeat url(' img/mainImg.svg');
+  background: top right no-repeat url('img/mainImg.svg');
 
 }
 
@@ -111,14 +111,14 @@ background: #0056EC;
 
 .main__description {
  margin: 0 0 41px 0;
- font: 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+ font: 18px/21px 'robotoregular', arial, helvetica, sans-serif;
  padding-right: 63%;
 
 }
 
 .main__button {
   display: inline-block;
-   font: 14px/16px 'robotomedium', arial, helvetica, sans-serif;
+   font: 14px/16px 'robotoregular', arial, helvetica, sans-serif;
    color: #fff;
    background: #0056EC;
    padding: 14px 16px;
