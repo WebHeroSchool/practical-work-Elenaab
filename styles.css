@@ -13,7 +13,8 @@ body {
 
 }
 
-.logo,.menu {
+.logo,
+.menu {
   display: inline-block;
 
 }
@@ -23,7 +24,7 @@ body {
   margin-right: 32%;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/31px 'pt_serif',arial, helvetica, sans-serif;
+  font: bold 24px/31px 'pt_serif' ,arial, helvetica, sans-serif;
 
 }
 
@@ -80,12 +81,12 @@ background: #0056EC;
  height: 3px;
  background: #0056ec;
  opacity: 0;
- transition: opacity .5s, width .5s;
+ transition: opacity 0.5s, width 0.5s;
 
 }
 
 .menu__item:hover {
- opacity: .5;
+ opacity: 0.5;
 
 }
 
@@ -125,7 +126,7 @@ background: #0056EC;
    padding: 14px 16px;
    text-decoration: none;
    border-radius: 4px;
-   transition: opacity .5s;
+   transition: opacity 0.5s;
 
 }
 
